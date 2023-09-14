@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Los Autos</string>
+    <string name="car_model">Car Model</string>
+    <string name="car_make">Car Make</string>
+    <string name="year">Year</string>
 </resources>

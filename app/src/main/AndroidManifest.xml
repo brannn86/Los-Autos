@@ -13,8 +13,14 @@
         android:theme="@style/Theme.LosAutos"
         tools:targetApi="31">
         <activity
+            android:name=".AddActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false"
+            android:label="Add Cars" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="Los Autos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
